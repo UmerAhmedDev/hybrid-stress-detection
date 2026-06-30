@@ -1,3 +1,27 @@
+# Stress Level Detector
+
+A hybrid AI system that estimates a student's stress level by combining real-time **facial emotion recognition** (via webcam) with a **psychological survey**, producing a single, more reliable stress score.
+
+## Overview
+
+Student stress is a growing concern that negatively affects academic performance and mental health. Traditional assessment methods rely solely on either self-reported surveys or observational cues — each of which has limitations on its own.
+
+This project combines both approaches:
+
+- **Facial emotion recognition** using a webcam and a deep learning model
+- **Questionnaire-based psychological survey**
+
+to compute a more balanced and reliable stress score in real time.
+
+## Author
+
+- Umer Ahmad — 241466
+
+## How It Works
+
+1. The webcam captures the student's face and detects emotion using a CNN-based classifier.
+2. The student simultaneously answers a set of survey questions in the terminal.
+3. Both inputs are scored independently, then combined into a final stress score:
 4. The final score (0–100) is mapped to a stress level:
 
 | Score Range | Stress Level |
