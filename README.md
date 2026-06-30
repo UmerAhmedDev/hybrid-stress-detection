@@ -92,7 +92,3 @@ python main.py
 ## Disclaimer
 
 This tool is intended for educational and research purposes only. It is **not** a clinical or diagnostic tool and should not be used as a substitute for professional mental health advice.
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
